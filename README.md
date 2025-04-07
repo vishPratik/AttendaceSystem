@@ -22,7 +22,8 @@ Replace the default code with:
 
 ```javascript
 const SHEET_ID = "YOUR_GOOGLE_SHEET_ID";
-const SHEET_NAME = "Attendance";```
+const SHEET_NAME = "Attendance";
+```javascript
 
 - **Student Portal**:
   - QR code scanning for attendance
