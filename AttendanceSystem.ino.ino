@@ -13,8 +13,8 @@
 #define LOGO_WIDTH  128
 #define LOGO_HEIGHT 160
 
-const char* ssid = "V2029";
-const char* password = "pratik12";
+const char* ssid = "your_ssid";
+const char* password = "your_ssid_password";
 
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 ESP8266WebServer server(80);

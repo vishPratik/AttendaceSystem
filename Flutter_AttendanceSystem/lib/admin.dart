@@ -15,7 +15,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
   final TextEditingController _subjectController = TextEditingController();
   final TextEditingController _classController = TextEditingController();
   final TextEditingController _lecturerController = TextEditingController();
-  final TextEditingController _ipController = TextEditingController(text: "192.168.193.235");
+  final TextEditingController _ipController = TextEditingController(text: "your_IP_address");
   bool _isGenerating = false;
   int _remainingTime = 0;
   Timer? _qrTimer;
@@ -176,7 +176,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
         content: TextField(
           controller: _ipController,
           decoration: const InputDecoration(
-            hintText: "192.168.193.235",
+            hintText: "your_IP_address",
             prefixIcon: Icon(Icons.wifi),
           ),
         ),

@@ -18,7 +18,7 @@ class _StudentDashboardState extends State<StudentDashboard> {
   bool _showScanner = false;
   bool _isLoading = false;
 
-  final String _googleScriptUrl = "https://script.google.com/macros/s/AKfycbycO19HRCp6QZHNLwfsrgk0KJMRk-ffdVERPCM11nJ96E1R7g-K_HpXKLbYGtQRwqrsxw/exec";
+  final String _googleScriptUrl = "https://script.google.com/macros/s/Your_ScriptId/exec";
 
   @override
   void initState() {
